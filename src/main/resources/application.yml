@@ -4,7 +4,7 @@ spring:
 
 ---
 server:
-  port: 7000
+  port: 0
 
 logging:
   level:
@@ -34,7 +34,7 @@ eureka:
         
 ---
 server:
-  port: 7000
+  port: 8080
 
 logging:
   level:

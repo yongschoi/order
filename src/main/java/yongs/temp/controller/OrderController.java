@@ -21,12 +21,12 @@ public class OrderController {
     @GetMapping("")
     public Order getMain() throws Exception{
     	logger.debug("yongs-main|MainController|getMain()");
-    	
+ 
     	Order order = new Order();
     	order.setShoppingcart(service.getShoppingcart());
     	order.setStock(service.getStock());
     	order.setAccount(service.getAccount());
-    	
+    	   	
     	return order;
     }
 }
